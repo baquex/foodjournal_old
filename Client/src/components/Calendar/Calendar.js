@@ -46,6 +46,10 @@ class MainContent extends Component {
 
 	}
 
+	myalert(){
+		alert("clicked!")
+	}
+
 	
 	fillMonth() {
 		let semana = [];
@@ -59,9 +63,9 @@ class MainContent extends Component {
 
 		for (let i=0;i< (daysInMonth + fdp +1);i++){
 			if (i <= fdp)
-				semana.push(<td key={i}></td>)
+				semana.push(<td key={i} onClick={this.myalert}></td>)
 			else {
-					semana.push(<td key={i}>{daysCount}</td>)
+					semana.push(<td key={i} onClick={this.myalert}>{daysCount}</td>)
 					daysCount++;
 				}
 		}
@@ -114,7 +118,7 @@ class MainContent extends Component {
 	render(){		
 		
 		return(
-			<div className="col-md-9 bg-primary">
+			<div className="col-md-9 main-content">
 				<div className="row p-2">
 					<div className="col-12">
 						<h1>My Food Journal</h1>

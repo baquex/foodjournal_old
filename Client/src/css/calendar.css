@@ -1,6 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+/* ####### LOGIN  ########*/
+.login2 {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 1%;
+  margin: 2em 0 4em 0;
+  font-family: "Pacifico", cursive;
+  color: #ff2d85; }
+
+.login-box {
+  background: rgba(3, 4, 4, 0.7); }
+
+.food-image {
+  background: url("../imgs/food3.jpg") center;
+  background-size: cover; }
+
+.login-square {
+  padding: 0; }
+
+body {
+  height: 100%;
+  background: url("../imgs/login.jpg") center;
+  height: 100%; }
+
+.main-content {
+  background: gray; }
+
+.sidebar {
+  background: lightblue; }
+
 .arrows {
   font-size: 2em;
   margin: 0 2em 0 2em; }
 
 .mes-arrows {
   width: 160px; }
+
+.profile-pic {
+  height: 180px;
+  border-radius: 50%; }
+
+td:hover {
+  background: lightgreen; }
+
+.user-info {
+  color: red; }
+
+.links {
+  margin: 2em;
+  height: 200px;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: black; }
+
+.links:hover {
+  color: rgba(17, 13, 255, 0.884);
+  text-decoration: none;
+  font-weight: bolder; }
+
+h4 {
+  font-size: 1.2em; }
+
+footer {
+  background-color: purple; }

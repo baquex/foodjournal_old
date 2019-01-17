@@ -1,3 +1,23 @@
+@import "./fonts";
+@import "./partials/login";
+
+$bg-main-content: gray;
+
+body {
+  height: 100%;
+  background: url("../imgs/login.jpg") center;
+  // background-size: cover;
+  height: 100%;
+}
+
+.main-content {
+  background: $bg-main-content;
+}
+
+.sidebar {
+  background: lightblue;
+}
+
 .arrows {
   font-size: 2em;
   margin: 0 2em 0 2em;
@@ -6,3 +26,44 @@
 .mes-arrows {
   width: 160px;
 }
+
+.profile-pic {
+  height: 180px;
+  border-radius: 50%;
+}
+
+td:hover {
+  background: lightgreen;
+}
+
+.user-info{
+  color: red;
+}
+
+.links{
+  margin: 2em;
+  height: 200px; 
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.links:hover{
+  color: rgba(17, 13, 255, 0.884);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: purple;
+}
+
+
+
+
